@@ -15,6 +15,7 @@ const JobDetails = () => {
     }
     return (
         <div className="my-10">
+            <h1 className="text-5xl font-bold py-10 text-center">Job Details</h1>
             <div className="grid-cols-4 grid gap-4">
                 <div className="col-span-3">
                     <h1><span className="text-3xl font-bold"> Job Description : </span><span className="text-xl text-gray-600">{job_description}</span></h1>

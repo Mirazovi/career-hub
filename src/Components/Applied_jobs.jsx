@@ -24,6 +24,7 @@ const Applied_jobs = () => {
     },[])
     return (
         <div>
+            <h1 className="text-5xl font-bold text-center py-10">Applied Jobs</h1>
             <div>
                 {
                     appliedJobs.map((job,idx) => <Applied_job key={idx} job={job}></Applied_job>)
